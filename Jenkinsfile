@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from GitHub
-                git url: 'https://github.com/yourusername/your-repo.git', credentialsId: 'your-credentials-id'
+                git url: 'https://github.com/Alina2619/your-repo.git', credentialsId: 'your-credentials-id'
             }
         }
 
